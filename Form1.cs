@@ -49,10 +49,10 @@ namespace blokingTelegram
             _targetPosition.X += _direction.X * 3; //Скорость
             _targetPosition.Y += _direction.Y * 3;
 
-            if (_targetPosition.X < 0 || _targetPosition.X > 1250) { //Границы
+            if (_targetPosition.X < 0 || _targetPosition.X > 1190) { //Границы
                 _direction.X *= -1;
             }
-            if (_targetPosition.Y < 0 || _targetPosition.Y > 600) {
+            if (_targetPosition.Y < 0 || _targetPosition.Y > 530) {
                 _direction.Y *= -1;
             }
 
